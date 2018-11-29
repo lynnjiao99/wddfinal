@@ -1,0 +1,215 @@
+html, body {
+    overflow: visible;
+    font-family: 'Arial';
+    position: center;
+    text-align: center;
+ }
+ .mushrooms {
+ 	display: inline-flex;
+ 	flex-direction: row;
+ 	justify-content: flex-start;
+ }
+
+ .slimes {
+ 	display: inline-flex;
+ 	flex-direction: row;
+ 	justify-content: flex-start;
+ }
+ .snails {
+ 	display: inline-flex;
+ 	flex-direction: row;
+ 	justify-content: flex-start;
+ }
+
+.slime1:hover {
+ 	cursor: pointer;
+ 	transform: scale(1.1);
+ 	transition: all .3s ease-in-out;
+ 	animation: fadeIn 0.3s ease-in 0s 1 forwards;
+ 	padding-right: 20px;
+ }
+.slime2:hover {
+ 	cursor: pointer;
+ 	transform: scale(1.1);
+ 	transition: all .3s ease-in-out;
+ 	animation: infinite-spinning 0.5s ease-in 0s 1 reverse;
+ 	padding-right: 20px;
+ }
+.slime3:hover {
+ 	cursor: pointer;
+ 	transform: scale(1.1);
+ 	transition: all .3s ease-in-out;
+ 	animation: infinite-spinning 0.4s ease-in 0s 2 forwards;
+ 	padding-right: 20px;
+ }
+.slime4:hover {
+ 	cursor: pointer;
+ 	transform: scale(1.1);
+ 	transition: all .3s ease-in-out;
+ 	animation: bounceIn .15s ease-in 0s 2 forwards;
+ 	padding-left: 20px;
+ }
+.mushroom1:hover {
+ 	cursor: pointer;
+ 	transform: scale(1.1);
+ 	transition: all .3s ease-in-out;
+ 	animation: fadeInOut 0.3s ease-in 0s 1;
+ 	padding: 20px;
+}
+.mushroom2:hover {
+ 	cursor: pointer;
+ 	transform: scale(1.1);
+ 	transition: all .3s ease-in-out;
+ 	animation: fadeInOut 0.5s ease-in 0s 1;
+ 	padding: 20px;
+}
+.mushroom3:hover {
+ 	cursor: pointer;
+ 	transform: scale(1.1);
+ 	transition: all .3s ease-in-out;
+ 	animation: fadeInOut 0.3s ease-in 0s 1;
+ 	padding: 20px;
+}
+.mushroom4:hover {
+ 	cursor: pointer;
+ 	transform: scale(1.1);
+ 	transition: all .3s ease-in-out;
+ 	animation: infinite-spinning 0.3s ease-in 0s 1;
+ 	padding: 20px;
+}
+.snail1:hover {
+	cursor: pointer;
+ 	transform: scale(1.1);
+ 	transition: all .3s ease-in-out;
+ 	animation: fadeInOut 0.3s ease-in 0s 1;
+	padding-left: 20px;
+}
+.snail2:hover {
+	cursor: pointer;
+ 	transform: scale(1.1);
+ 	transition: all .3s ease-in-out;
+ 	animation: infinite-spinning 0.3s ease-in 0s 2 forwards;
+  	padding-left: 20px;
+ }
+.snail3:hover {
+	cursor: pointer;
+ 	transform: scale(1.1);
+ 	transition: all .3s ease-in-out;
+ 	animation: bounceIn 0.3s ease-in 0s 1;
+  	padding-left: 20px;
+}
+.snail4:hover {
+	cursor: pointer;
+ 	transform: scale(1.5);
+ 	transition: all .3s ease-in-out;
+ 	padding-left: 20px;
+} 
+ @keyframes move {
+  from { top: 0; left: 0; }
+  to   { top: 100px; left: 100px; }
+}
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+@keyframes infinite-spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes fadeInOut {
+	0% { opacity: 0; }
+	35% { opacity: 1; }
+	100% { opacity: 0; }
+}
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.5);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes opacity {
+    from: { opacity: 0; }
+    to: { opacity: 0.4; }
+}
+.mushroom2:hover {
+ 	cursor: pointer;
+ 	transform: scale(1.1);
+ 	transition: all .3s ease-in-out;
+ 	animation: fadeInOut 0.5s ease-in 0s 1;
+ 	padding: 20px;
+}
+ .snail1:hover {
+ 	cursor: pointer;
+ 	transform: scale(1.1);
+ 	animation: upDown 0.5s ease-in 0s 1;
+ 	animation-fill-mode: forwards;
+ 	padding-left: 20px;
+ }
+.slime1 {
+	padding-left: 30px;
+}
+.slime2 {
+	padding-left: 30px;
+}
+.slime3 {
+	padding-left: 30px;
+}
+.slime4 {
+	padding-left: 30px;
+}
+.snail1 {
+	padding-left: 30px;
+}
+.snail2 {
+	padding-left: 30px;
+}
+.snail3 {
+	padding-left: 30px;
+}
+.snail4 {
+	padding-left: 30px;
+}
+.mushroom1 {
+	padding-left: 30px;
+}
+.mushroom2 {
+	padding-left: 30px;
+}
+.mushroom3 {
+	padding-left: 30px;
+}
+.mushroom4 {
+	padding-left: 30px;
+}
+.text1 {
+	opacity: 0.5;
+}
+.text2 {
+	opacity: 0.5;
+}
+.text3 {
+	opacity: 0.5;
+}
+.text1:hover {
+	transform: scale(1.4);
+ 	transition: all .1s ease-in-out;
+}
+.text2:hover {
+	transform: scale(1.4);
+ 	transition: all .1s ease-in-out;
+}
+.text3:hover {
+	transform: scale(1.4);
+ 	transition: all .1s ease-in-out;
+}
